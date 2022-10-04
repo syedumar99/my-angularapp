@@ -1,0 +1,31 @@
+<body  [myColor]="'Silver'"><!--assignment-->
+  <div>
+    <app-products-details></app-products-details>
+    <my-com></my-com>
+    <app-for-each></app-for-each>
+    <app-image-gallery></app-image-gallery>
+    <app-product></app-product>
+    <app-if-example></app-if-example>
+    <div>
+      <h1 [color]="'green'">My Green</h1>
+      <h3 [color]="'grey'">My Grey</h3>
+    </div>
+    <div>
+      <app-pipe-example></app-pipe-example>
+      <app-my-service></app-my-service>
+    </div>
+  </div>
+  <div>
+    <app-employee-details></app-employee-details>
+  </div>
+  <div>
+    <app-my-api></app-my-api>
+  </div>
+  <div><app-post-example></app-post-example></div>
+  <div><app-my-reactive-form></app-my-reactive-form></div>
+  <div><new-com></new-com></div>
+  <div style="text-align: center;">
+    <a routerLink="Reactive">Reactive Form Module</a>
+  </div>
+  <router-outlet></router-outlet>
+</body>
